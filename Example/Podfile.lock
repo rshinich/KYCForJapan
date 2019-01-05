@@ -1,0 +1,16 @@
+PODS:
+  - KYCForJapan (0.1.0)
+
+DEPENDENCIES:
+  - KYCForJapan (from `../`)
+
+EXTERNAL SOURCES:
+  KYCForJapan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KYCForJapan: a99ad416e535625b6769615995a481f987c04f6a
+
+PODFILE CHECKSUM: 9cde95c9580f6a676a59c2babe0622f620be373c
+
+COCOAPODS: 1.5.3

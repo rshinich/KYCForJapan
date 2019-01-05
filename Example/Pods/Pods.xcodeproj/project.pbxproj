@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117FFD0F5D77582EEF5488B5FF314E0D /* KYCForJapan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C46FE65DE6C1EDAE1416ABB3318E1DC /* KYCForJapan-dummy.m */; };
+		1CCA5F7DB7D892DE04EBB359AB7A340E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		5F3322C772E28E82C67DD215E63932F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		7F798F5783E28A277836392DB6955750 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE786AF19186B885C0FBF4D32FFBF93 /* ReplaceMe.m */; };
+		95B49887DF252C8CCF24FE1773A4F406 /* KYCForJapan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB903873117D2B1EBFB3E86C1DC7AF4B /* KYCForJapan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6035F92660B947F99F885BFBFFACCB /* Pods-KYCForJapan_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C52DD524E9257A15850EEB6707965A7 /* Pods-KYCForJapan_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C36F5CB17E4E6690B7DBC7C38B5E3B1F /* Pods-KYCForJapan_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CA38723AD4FA03F298F5D5EF48E36 /* Pods-KYCForJapan_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		215D84AFE6B74FEE79545191F969A62D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C00987C8B3E98B195ADDA01F62AF93;
+			remoteInfo = KYCForJapan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02037210B248F10579B7281B3A51E05B /* Pods-KYCForJapan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCForJapan_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		03E0415D114844457E3AA6625F3E5061 /* Pods-KYCForJapan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCForJapan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F74C5FA4B72113F37F0C7BCFD2A80B3 /* KYCForJapan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYCForJapan.xcconfig; sourceTree = "<group>"; };
+		1F1051C261FC40E5EFA365970DB4E188 /* Pods-KYCForJapan_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KYCForJapan_Tests.modulemap"; sourceTree = "<group>"; };
+		4327C5786EA2A338C46AE487B614AFF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA5D5A8EAEF4E33651C156F5A9DC37F /* Pods-KYCForJapan_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYCForJapan_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		536C86B6AEAD675CB58E4FEBD55482AD /* Pods-KYCForJapan_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYCForJapan_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53FCFE253FDBBE4C9D199E6E5AC21B8D /* Pods-KYCForJapan_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYCForJapan_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		651B1524805FEA53906B56F3C2572209 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C46FE65DE6C1EDAE1416ABB3318E1DC /* KYCForJapan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYCForJapan-dummy.m"; sourceTree = "<group>"; };
+		6D66B38F470A84EBCE4C8D4A67D8B5AA /* KYCForJapan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KYCForJapan.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		736F2A32473E92C925EDECBC355E3618 /* Pods-KYCForJapan_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYCForJapan_Tests-resources.sh"; sourceTree = "<group>"; };
+		8775490B4DDE02166BAAB7F510081FC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8C52DD524E9257A15850EEB6707965A7 /* Pods-KYCForJapan_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYCForJapan_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C50203F9FED5D8EB295F9963E6621C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCF1A905B6A0750955FF0F0BC3563ED /* KYCForJapan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYCForJapan-prefix.pch"; sourceTree = "<group>"; };
+		AA8CA38723AD4FA03F298F5D5EF48E36 /* Pods-KYCForJapan_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYCForJapan_Tests-dummy.m"; sourceTree = "<group>"; };
+		B2DE9FC0BEF28CB1F3DA8F0846A3F95A /* Pods_KYCForJapan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KYCForJapan_Tests.framework; path = "Pods-KYCForJapan_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE786AF19186B885C0FBF4D32FFBF93 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KYCForJapan/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C59E418EF6311A866F33EF413947D6D2 /* KYCForJapan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYCForJapan.framework; path = KYCForJapan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB64F57503E3DC18061DADEAF3E57B3F /* KYCForJapan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KYCForJapan.modulemap; sourceTree = "<group>"; };
+		EB903873117D2B1EBFB3E86C1DC7AF4B /* KYCForJapan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYCForJapan-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A295FE7441C91ABD128785230BDB5A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCA5F7DB7D892DE04EBB359AB7A340E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D284E80BFA292171A464536775B09A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3322C772E28E82C67DD215E63932F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1938C10990A268D18F43E09004D193F5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84111978DA4C67D463BA646AA5DDA091 /* KYCForJapan */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		21730ACF229E929D016CAB42B92BC3BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E930056231DE784156F4136A8C02CE /* Pods-KYCForJapan_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1938C10990A268D18F43E09004D193F5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E8F981F6C0C47D4DEEAC8937C46CB92F /* Products */,
+				21730ACF229E929D016CAB42B92BC3BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84111978DA4C67D463BA646AA5DDA091 /* KYCForJapan */ = {
+			isa = PBXGroup;
+			children = (
+				BDE786AF19186B885C0FBF4D32FFBF93 /* ReplaceMe.m */,
+				F68796113C4979240E3D3C539802FBD7 /* Pod */,
+				B43C786CF66762175AEA1D2E23C15586 /* Support Files */,
+			);
+			name = KYCForJapan;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B43C786CF66762175AEA1D2E23C15586 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C50203F9FED5D8EB295F9963E6621C5 /* Info.plist */,
+				EB64F57503E3DC18061DADEAF3E57B3F /* KYCForJapan.modulemap */,
+				0F74C5FA4B72113F37F0C7BCFD2A80B3 /* KYCForJapan.xcconfig */,
+				6C46FE65DE6C1EDAE1416ABB3318E1DC /* KYCForJapan-dummy.m */,
+				9FCF1A905B6A0750955FF0F0BC3563ED /* KYCForJapan-prefix.pch */,
+				EB903873117D2B1EBFB3E86C1DC7AF4B /* KYCForJapan-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KYCForJapan";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E930056231DE784156F4136A8C02CE /* Pods-KYCForJapan_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4327C5786EA2A338C46AE487B614AFF4 /* Info.plist */,
+				1F1051C261FC40E5EFA365970DB4E188 /* Pods-KYCForJapan_Tests.modulemap */,
+				536C86B6AEAD675CB58E4FEBD55482AD /* Pods-KYCForJapan_Tests-acknowledgements.markdown */,
+				53FCFE253FDBBE4C9D199E6E5AC21B8D /* Pods-KYCForJapan_Tests-acknowledgements.plist */,
+				AA8CA38723AD4FA03F298F5D5EF48E36 /* Pods-KYCForJapan_Tests-dummy.m */,
+				4DA5D5A8EAEF4E33651C156F5A9DC37F /* Pods-KYCForJapan_Tests-frameworks.sh */,
+				736F2A32473E92C925EDECBC355E3618 /* Pods-KYCForJapan_Tests-resources.sh */,
+				8C52DD524E9257A15850EEB6707965A7 /* Pods-KYCForJapan_Tests-umbrella.h */,
+				03E0415D114844457E3AA6625F3E5061 /* Pods-KYCForJapan_Tests.debug.xcconfig */,
+				02037210B248F10579B7281B3A51E05B /* Pods-KYCForJapan_Tests.release.xcconfig */,
+			);
+			name = "Pods-KYCForJapan_Tests";
+			path = "Target Support Files/Pods-KYCForJapan_Tests";
+			sourceTree = "<group>";
+		};
+		E8F981F6C0C47D4DEEAC8937C46CB92F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59E418EF6311A866F33EF413947D6D2 /* KYCForJapan.framework */,
+				B2DE9FC0BEF28CB1F3DA8F0846A3F95A /* Pods_KYCForJapan_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68796113C4979240E3D3C539802FBD7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D66B38F470A84EBCE4C8D4A67D8B5AA /* KYCForJapan.podspec */,
+				8775490B4DDE02166BAAB7F510081FC8 /* LICENSE */,
+				651B1524805FEA53906B56F3C2572209 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CBBFD41B37FE4286C95D9C6CE2CD3B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6035F92660B947F99F885BFBFFACCB /* Pods-KYCForJapan_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31D203F971173B803541A5C1A241C0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B49887DF252C8CCF24FE1773A4F406 /* KYCForJapan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38723BD36E55829C76B59F19E5417CFD /* Pods-KYCForJapan_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB3596BAEE7F51F9B9333214C0F96F3 /* Build configuration list for PBXNativeTarget "Pods-KYCForJapan_Tests" */;
+			buildPhases = (
+				1CBBFD41B37FE4286C95D9C6CE2CD3B2 /* Headers */,
+				852EA065ABC9514FD52DE49EED4571CD /* Sources */,
+				3D284E80BFA292171A464536775B09A8 /* Frameworks */,
+				B23307B8F953D4970790602D94F4754A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609398B37DE60CB8A19FF5C1C6475AA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-KYCForJapan_Tests";
+			productName = "Pods-KYCForJapan_Tests";
+			productReference = B2DE9FC0BEF28CB1F3DA8F0846A3F95A /* Pods_KYCForJapan_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0C00987C8B3E98B195ADDA01F62AF93 /* KYCForJapan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2021F2E6635D5F2D4176433B1ACCEBD /* Build configuration list for PBXNativeTarget "KYCForJapan" */;
+			buildPhases = (
+				F31D203F971173B803541A5C1A241C0B /* Headers */,
+				730591D40250D47F76FA17E3067A6DED /* Sources */,
+				2A295FE7441C91ABD128785230BDB5A2 /* Frameworks */,
+				A03C4D81E08C13CC97467435A2133C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYCForJapan;
+			productName = KYCForJapan;
+			productReference = C59E418EF6311A866F33EF413947D6D2 /* KYCForJapan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E8F981F6C0C47D4DEEAC8937C46CB92F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C00987C8B3E98B195ADDA01F62AF93 /* KYCForJapan */,
+				38723BD36E55829C76B59F19E5417CFD /* Pods-KYCForJapan_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A03C4D81E08C13CC97467435A2133C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23307B8F953D4970790602D94F4754A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730591D40250D47F76FA17E3067A6DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117FFD0F5D77582EEF5488B5FF314E0D /* KYCForJapan-dummy.m in Sources */,
+				7F798F5783E28A277836392DB6955750 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852EA065ABC9514FD52DE49EED4571CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36F5CB17E4E6690B7DBC7C38B5E3B1F /* Pods-KYCForJapan_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		609398B37DE60CB8A19FF5C1C6475AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYCForJapan;
+			target = D0C00987C8B3E98B195ADDA01F62AF93 /* KYCForJapan */;
+			targetProxy = 215D84AFE6B74FEE79545191F969A62D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		269EF09B600C9EE6D957855F3A7E435D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F74C5FA4B72113F37F0C7BCFD2A80B3 /* KYCForJapan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYCForJapan/KYCForJapan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYCForJapan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYCForJapan/KYCForJapan.modulemap";
+				PRODUCT_MODULE_NAME = KYCForJapan;
+				PRODUCT_NAME = KYCForJapan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2C8F68FE5EE7107B6B6C401A57DC116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F74C5FA4B72113F37F0C7BCFD2A80B3 /* KYCForJapan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYCForJapan/KYCForJapan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYCForJapan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYCForJapan/KYCForJapan.modulemap";
+				PRODUCT_MODULE_NAME = KYCForJapan;
+				PRODUCT_NAME = KYCForJapan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2B8F75182F4CFA6FF06424B86D15635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E0415D114844457E3AA6625F3E5061 /* Pods-KYCForJapan_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYCForJapan_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYCForJapan_Tests/Pods-KYCForJapan_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0A0F966EF36221EA694083ABE2AC8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02037210B248F10579B7281B3A51E05B /* Pods-KYCForJapan_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYCForJapan_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYCForJapan_Tests/Pods-KYCForJapan_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
+				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2021F2E6635D5F2D4176433B1ACCEBD /* Build configuration list for PBXNativeTarget "KYCForJapan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269EF09B600C9EE6D957855F3A7E435D /* Debug */,
+				D2C8F68FE5EE7107B6B6C401A57DC116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB3596BAEE7F51F9B9333214C0F96F3 /* Build configuration list for PBXNativeTarget "Pods-KYCForJapan_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B8F75182F4CFA6FF06424B86D15635 /* Debug */,
+				F0A0F966EF36221EA694083ABE2AC8A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

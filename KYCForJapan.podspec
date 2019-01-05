@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KYCForJapan'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KYCForJapan.'
+  s.summary          = 'Know your custom for japan.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod is for ShineEX, inclued KYC(Know your custom) for some country,this one is for Japan users.
                        DESC
 
   s.homepage         = 'https://github.com/rshinich/KYCForJapan'
